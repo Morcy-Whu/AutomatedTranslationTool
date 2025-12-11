@@ -1,0 +1,9 @@
+python Translate.py "你好，世界"
+python TranslateFile.py
+python TranslateFile.py -i "C:\Users\ericm\Desktop\Myfile\Target.txt"  # Input path is specified, output to default path
+python TranslateFile.py -o "D:\Applications\Pycharm Project\MarianMT\Test"  #read from defaut path. output to specified path.
+python TranslateFile.py -i "C:\Users\ericm\Desktop\Myfile\Target.txt" -o "D:\Applications\Pycharm Project\MarianMT\Test"
+python TranslateFile.py -i "C:\Users\ericm\Desktop\Input--\Tem.txt" -o "C:\Users\ericm\Desktop\Output--"
+python TranslateFile.py -r True
+python TranslationGUI.py
+
